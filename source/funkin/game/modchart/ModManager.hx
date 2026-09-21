@@ -20,6 +20,9 @@ class ModManager implements IFlxDestroyable
 		quickRegister(new ConfusionModifier(this));
 		quickRegister(new PerspectiveModifier(this));
 		quickRegister(new OpponentModifier(this)); // ur not that essential...
+		quickRegister(new SchmovinDrunkModifier(this));
+		quickRegister(new SchmovinTipsyModifier(this));
+		quickRegister(new SchmovinTornadoModifier(this));
 	}
 	
 	public function registerDefaultModifiers()
